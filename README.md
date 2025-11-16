@@ -6,6 +6,6 @@ The tool provides an Instrument Box context menu and a Keyboard Shortcut which w
 
 The packaged tool can be downloaded here:
 
-[com.mothteeth.WaveformTuner.xrnx](com.mothteeth.WaveformTuner.xrnx)
+[com.mothteeth.WaveformTuner.xrnx](com.mothteeth.WaveformTuner.xrnx?raw=1)
 
 Check out Renoise here: [renoise.com](https://www.renoise.com/)
