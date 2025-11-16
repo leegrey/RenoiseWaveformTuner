@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseScriptingTool doc_version="0">
+  <ApiVersion>6.2</ApiVersion>
+  <AutoUpgraded>true</AutoUpgraded>
+  <Id>com.mothteeth.WaveformTuner</Id>
+  <Version>0.01</Version>
+  <Author>Lee Grey (lee@mothteeth.com)</Author>
+  <Name>Test</Name>
+  <Category>Sample,Generator</Category>
+  <Description>Waveform Tuner</Description>
+  <Homepage>https://github.com/leegrey/RenoiseWaveformTuner</Homepage>
+</RenoiseScriptingTool>
