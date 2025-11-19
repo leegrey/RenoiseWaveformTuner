@@ -3,10 +3,10 @@
   <ApiVersion>6.2</ApiVersion>
   <AutoUpgraded>true</AutoUpgraded>
   <Id>com.mothteeth.WaveformTuner</Id>
-  <Version>1.00</Version>
+  <Version>1.0</Version>
   <Author>Lee Grey (lee@mothteeth.com)</Author>
   <Name>Waveform Tuner</Name>
   <Category>Sample,Generator</Category>
-  <Description>Tunes the pitch of a single cycle waveform based on the length of the sample buffer, such that it will loop at C4.</Description>
+  <Description>A simple utility for automatically tuning single cycle waveforms to C4, based on the length of the sample buffer.</Description>
   <Repository>https://github.com/leegrey/RenoiseWaveformTuner</Repository>
 </RenoiseScriptingTool>

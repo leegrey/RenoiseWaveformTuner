@@ -4,10 +4,9 @@ local this
 
 function WaveformTuner:__init(instrument)
   self.instrument = instrument
-  this = self    
+  this = self 
   self:tune()
 end
-
 
 function WaveformTuner:tune()
   for i = 1, #this.instrument.samples do
@@ -41,6 +40,23 @@ function WaveformTuner:tune()
         -- Convert cents to Renoise fine_tune range (-127 .. +127)
         local fine_tune = math.floor((cents / 100) * 128 + 0.5)
 
+        -- Range check - if the buffer is too long it will try 
+        -- to set transpose to an illegal value and throw an error
+        if semitones < -120 or semitones > 120 then
+          renoise.app():show_warning(
+            string.format(
+              "The sample buffer is too long to tune to C4\n" ..
+              "Shorter buffers are recommended.\n" ..
+              "Buffer Size: %d samples\n" ..
+              "Required Transposition: %d\n" .. 
+              "Valid range: -120 to +120",
+              buffer_length,
+              semitones
+            )
+          )
+          return
+        end
+
         -- Apply tuning values to the sample
         sample.transpose = semitones
         sample.fine_tune = fine_tune
@@ -55,4 +71,3 @@ function WaveformTuner:tune()
     end
   end
 end
-
