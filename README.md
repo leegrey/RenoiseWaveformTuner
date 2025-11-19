@@ -6,10 +6,4 @@ The tool provides an Instrument Box context menu and a Keyboard Shortcut which w
 
 The maximum transposition range in Renoise is -120 semitones to +120 semitones. Very long buffers may require a pitch adjustment that exceeds this range. Attempting to tune an oversized buffer will cause a notification to be displayed, and no adjustments will be applied. In practice, single cycle wave forms will generally never come close to this size limit. 
 
-The packaged tool can be downloaded here:
-
-[com.mothteeth.WaveformTuner.xrnx](com.mothteeth.WaveformTuner.xrnx?raw=1)
-
-Check out Renoise here: [renoise.com](https://www.renoise.com/)
-
 License: MIT
