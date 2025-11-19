@@ -4,7 +4,7 @@
   <AutoUpgraded>true</AutoUpgraded>
   <Id>com.mothteeth.WaveformTuner</Id>
   <Version>1.0</Version>
-  <Author>Lee Grey (lee@mothteeth.com)</Author>
+  <Author>Lee Grey (Oberon on the Renoise forum)</Author>
   <Name>Waveform Tuner</Name>
   <Category>Sample,Generator</Category>
   <Description>A simple utility for automatically tuning single cycle waveforms to C4, based on the length of the sample buffer.</Description>
