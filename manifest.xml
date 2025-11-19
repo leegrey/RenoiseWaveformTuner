@@ -2,10 +2,10 @@
 <RenoiseScriptingTool doc_version="0">
   <ApiVersion>6.2</ApiVersion>
   <Id>com.mothteeth.WaveformTuner</Id>
-  <Version>1.0</Version>
+  <Version>1.01</Version>
   <Author>Lee Grey (Oberon on the Renoise forum)</Author>
   <Name>Waveform Tuner</Name>
-  <Category>Sample,Generator</Category>
+  <Category>Sample,Tuning,Workflow</Category>
   <Description>A simple utility for automatically tuning single cycle waveforms to C4, based on the length of the sample buffer.</Description>
   <Repository>https://github.com/leegrey/RenoiseWaveformTuner</Repository>
 </RenoiseScriptingTool>
